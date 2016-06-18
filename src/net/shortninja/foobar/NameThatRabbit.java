@@ -68,8 +68,8 @@ public class Answer
 			}else if (firstCharacterValue < secondCharacterValue)
 			{
 				lexicographicallyLarger = secondName;
-				break;
-            }
+				break
+			}
 		}
 		
 		return lexicographicallyLarger;
