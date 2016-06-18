@@ -65,7 +65,7 @@ public class Answer
 			{
 				lexicographicallyLarger = firstName;
 				break;
-			}else if (firstCharacterValue < secondCharacterValue)
+			}else if(firstCharacterValue < secondCharacterValue)
 			{
 				lexicographicallyLarger = secondName;
 				break;
