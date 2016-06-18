@@ -1,3 +1,7 @@
+package com.google.challenges; 
+
+public class Answer
+{
 	public static String[] answer(String[] names)
 	{
 		Arrays.sort(names, new Comparator<String>()
@@ -70,3 +74,4 @@
 		
 		return lexicographicallyLarger;
 	}
+}
